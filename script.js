@@ -1,4 +1,6 @@
 const zuckyButton = document.getElementById('zucky-btn')
+
+
 zuckyButton.onclick = () => {
-    alert('facebook')
+    document.getElementById('content').innerHTML = articlesObj['baiden']
 }
